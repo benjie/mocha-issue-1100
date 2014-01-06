@@ -1,5 +1,5 @@
 var assert = require('assert');
-var delay = 10000;
+var delay = 2000;
 
 describe('Contrived example', function(){
   this.timeout(15000);

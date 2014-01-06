@@ -5,9 +5,7 @@ Steps to reproduce:
 
 and then in a different terminal
 
-    touch test/test.js
-    sleep 5
-    touch test/test.js
+    touch test/test.js; sleep 1; touch test/test.js
 
 **NOTE**: `npm test` in this case runs `--watch` so it won't exit
 automatically.
